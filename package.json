@@ -1,7 +1,7 @@
 {
   "name": "citypicker",
   "version": "1.0.0",
-  "description": " city component",
+  "description": "微信小程序城市选择组件",
   "main": "app.js",
   "directories": {
     "lib": "lib"
@@ -9,6 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weizuichunsun/cityPicker.git"
+  },
   "author": "weizuichunsun",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weizuichunsun/cityPicker/issues"
+  },
+  "homepage": "https://github.com/weizuichunsun/cityPicker#readme"
 }
