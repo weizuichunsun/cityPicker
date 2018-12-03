@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cityPicker": "../component/cityPicker/cityPicker"
+  }
+}

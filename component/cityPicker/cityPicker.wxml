@@ -1,0 +1,22 @@
+<!--component/cityPicker/cityPicker.wxml-->
+  <slot></slot>
+<!-- <button bindtap='switchPicker'>开关2</button> -->
+<view class='address_picker' wx:if='{{showPicker}}'>
+  <view>
+    <view class='btn-box'>
+      <text bindtap='cancelPicker'  style='color: #888'>取消</text>
+      <text bindtap='confirmPicker' style='color: #89d589'>确定</text>
+    </view>
+    <picker-view class="picker-view" indicator-style="height: 35px;" value="{{areaLayer.value}}"  bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{areaLayer.provinceData}}" wx:key="code" class="addr-item">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{areaLayer.cityData}}" wx:key="code" class="addr-item">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column >
+        <view wx:for="{{areaLayer.countData}}" wx:key="code" class="addr-item">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+</view>
