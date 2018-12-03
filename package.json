@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:weizuichunsun/cityPicker.git"
+    "url": "git+https://github.com/weizuichunsun/cityPicker.git"
   },
   "author": "weizuichunsun",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/weizuichunsun/cityPicker/issues"
   },
-  "homepage": "https://github.com/weizuichunsun/cityPicker"
+  "homepage": "https://github.com/weizuichunsun/cityPicker#readme"
 }
