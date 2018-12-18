@@ -2,8 +2,14 @@
  
 </cityPicker>
  <button bindtap='onTap'>打开城市组件</button>
-
 {{address}}
+
+<view wx:for="{{arr}}">
+{{index}}
+</view>
+
+
+
 
 <!-- <button bindtap='_switchPicker'>开关1</button> -->
 <!-- <button bindtap='switchPicker'>开关</button> -->

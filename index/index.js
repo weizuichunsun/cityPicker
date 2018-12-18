@@ -11,6 +11,20 @@ Page({
 
     self.cityPickerNodes = self.selectComponent("#cityPickerNodes");
 
+    // var arr = [];
+    // var leng = 10000;
+    // for (var i = 0; i < leng;i++){
+
+    //   arr.push(i)
+
+    //   if (i == leng-1){
+    //     self.setData({
+    //       arr: arr
+    //     })
+    //     break;
+    //   }
+    // }
+
 
 
   },
